@@ -6,7 +6,7 @@ pipeline {
             steps {
                 // Checkout your source code repository here
                 // For example:
-                // git branch: 'main', url: 'https://github.com/jd-turner/hello-docker.git'
+                 git branch: 'main', url: 'https://github.com/jd-turner/hello-docker.git'
             }
         }
         

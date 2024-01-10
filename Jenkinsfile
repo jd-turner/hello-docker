@@ -14,7 +14,7 @@ pipeline {
             steps {
                 script {
                     // Use Python to execute the build process
-                    sh 'python app.py'
+                    sh 'python3 app.py'
                 }
             }
         }
@@ -23,7 +23,7 @@ pipeline {
             steps {
                 script {
                     // Run tests using Python
-                    sh 'python app.py'
+                    sh 'python3 app.py'
                 }
             }
         }
@@ -32,7 +32,7 @@ pipeline {
             steps {
                 script {
                     // Deploy your application using Python scripts or commands
-                    sh 'python app.py'
+                    sh 'python3 app.py'
                 }
             }
         }
